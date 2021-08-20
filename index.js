@@ -1,9 +1,9 @@
 const nfinder = require('./nfinder.js')
 
-nfinder.reader(368112).then(e=>{
-    console.dir(e)
-})
+// nfinder.reader(368112).then(e=>{
+//     console.dir(e)
+// })
 
-nfinder.getter(50,"fgo").then(res=>{
+nfinder.getter(5,"azur lane").then(res=>{
     console.log(res)
 })
